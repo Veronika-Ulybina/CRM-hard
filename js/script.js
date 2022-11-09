@@ -1,21 +1,14 @@
 'use strict';
 
-const navSystemName = 'Навигационная система Soundmax';
-console.log(navSystemName);
+{
+  const productName = 'apples';
+  console.log(productName);
 
-const desktopGameName = 'Настольная игра “На 4-х ногах”';
-console.log(desktopGameName);
+  const productCategory = 'fruits';
 
-const categoryTechnic = 'Техника для дома';
-
-const categoryGames = 'Настольные игры';
-
-const amountNavSystem = 5;
-const priceNavSystem = 100;
-const sumNavSystem = priceNavSystem * amountNavSystem;
-console.log(`Общая сумма товара '${navSystemName}': ${sumNavSystem}`);
-
-const amountDesktopGame = 12;
-const priceDesktopGame = 14;
-const sumDesktopGame = priceDesktopGame * amountDesktopGame;
-console.log(`Общая сумма товара '${desktopGameName}': ${sumDesktopGame}`);
+  const productCount = 22;
+  const productPrice = 150;
+  
+  const productSum = productCount * productPrice;
+  console.log(`Общая сумма товара: ${productSum}`);
+}
